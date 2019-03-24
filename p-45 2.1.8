@@ -1,0 +1,11 @@
+clear
+clc
+close
+L=4
+n=-L:L
+x=[zeros(1,L),0:L]
+a=gca()
+a.thickness=2
+a.y_location="middle"
+plot2d3(n,x)
+xtitle('Graphical representation of unit sample sequence','n','x[n]')
