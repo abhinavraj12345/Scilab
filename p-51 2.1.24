@@ -1,0 +1,11 @@
+clc
+clear
+close
+n=-7:7
+x1=[0 0 0 1 2 3 4]
+x=[x1,5,x1($:-1:1)]
+a=gca()
+a.thickness=2
+a.y_location="middle"
+plot2d3(n,x)
+xtitle('Graphical Representation of Even Signal','n','x[n]')
