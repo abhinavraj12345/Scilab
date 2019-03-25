@@ -1,0 +1,12 @@
+clc
+clear
+close
+a=-1.5
+n=0:10
+x=a^n
+a=gca()
+a.thickness=2
+plot2d3(n,x)
+a.x_location="origin"
+a.y_location="origin"
+xtitle('Graphical Representation of exponential Increasing Decreasing Signal','n','x[n]')
